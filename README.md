@@ -8,5 +8,5 @@
 
 
 ### Features
-HTML5
+HTML5 and
 CSS styles

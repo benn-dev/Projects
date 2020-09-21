@@ -1,0 +1,223 @@
+/** formatações gerais **/
+hr{
+	color: #E63946;
+}
+*{
+	padding: 0;
+	margin:0;
+}
+body{
+	font-size: 1.4em; 
+	background: #F1FAEE;
+	width: 99,9%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/**Cabeçalho | Header **/	
+
+#header-area{
+	width: 100%;
+	background:#E63946;
+	text-align: center;
+	position: relative;
+	display:inline-block;
+	
+}
+	/***logo ***/
+	#logo{
+		padding: 12px;
+		color: white;
+	}
+	#logo a , #logo a:link, #logo a:visited, #logo a:hover {
+		font-weight: 900;
+		text-decoration: none;
+		font-size: 1.3em;
+		font-family:"Comic Sans MS", cursive, sans-serif ;
+		float: left;
+		padding: 0px 0px;
+		padding-left: 80px;
+	}
+	.subtitle{
+		font-size:0.7em; 
+	}	
+	/***final logo | end-logo ***/
+
+	/*** barra de navegação | navegation bar***/
+	li{
+		display: inline;
+		}
+	.inline a {
+		text-align: center;
+		float: right;
+		padding-right: 10px;
+		font-size:0.6em ;
+		font-weight: 300;
+		text-decoration: none;
+		margin: 15px;
+		padding: 5 10px;
+		text-transform: uppercase;
+	}
+	.inline a:link , a:visited{
+		color: white;
+	}
+	.inline a:hover{
+		font-family:"Comic Sans MS", cursive, sans-serif ;
+		font-size: 0.8em;
+		color: #E63946;
+		background: white;
+		position: relative;
+		bottom: 5px;
+	}
+	#navbar{
+			padding-right:  100px;
+		}
+	/*** end navbar***/
+
+/**Área de conteúdos | Content-area **/
+#content-area{
+	
+	
+	/**clear: both;**/
+	font-size: 0.8em;
+	text-align: justify-all;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+	/**texts**/
+	.center{     /**To center an image, set left and right margin to auto and make it into a block element: **/
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	    width: 80%;
+	}
+	.text{
+		margin-top: 10px;
+		margin-bottom: 40px;
+		font-size: 0.9em;
+	}
+	.text-title{
+		font-size: 2.0em;
+		font-weight: 500;
+		color: #E63946;
+		margin-top: 30px;
+	}
+	
+	#text-area a{
+		text-decoration: none;
+		color: #E63946;
+		font-size: 1.1em;
+	}
+
+	#text-area a:link, #text-area a:visited{
+		
+	}
+	
+	#text-area a:hover{
+		font-size: 1.6em;
+		/**color:  #E63946;**/
+	} 
+	
+/**footnote**/
+.copyrigth{
+	font-size: 14px;
+	clear: both;
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+
+/**laywers**/
+	#description-area{
+		border: 2px #E63946 solid;
+		border-bottom: 2px  #E63946 solid;
+		display: inline-block;
+		margin-top: 15px;
+		margin-bottom: 10px;
+
+	}
+	.persons-img{  /**O inline-block sendo utilizado para alinhar texto e parágrafo lado a lado **/
+		display: inline-block;
+		float: left;
+		/** border: 2px red solid;**/
+		width: 240px;
+		height: 240px;
+	}
+	.person-text{ /*borders for maintenance and align image side by side text **/
+		/** float: right; **/
+		/**border: 2px red solid;**/
+		float: left;
+		display: inline-block;/**O inline-block sendo utilizado para alinhar texto e parágrafo lado a lado **/
+	}
+	.person_name{
+		clear: both;
+		display: inline-block;/**O inline-block sendo utilizado para alinhar texto e parágrafo lado a lado **/
+		/** border: 2px red solid;**/
+		font-size: 1.4em;
+		color: #E63946;
+		font-weight: 700;
+	}
+
+
+	/** contato**/
+	.herri{
+		color: #ffd2c4 ;
+	}
+	.contat-img{
+		clear: both;
+		display: inline-block;
+		float: left;
+		
+	}
+	#map{
+		/**border: 2px red solid;**/
+		display: inline-block;
+	}
+	.bus-datas{
+		font-size: 1.6em;
+		font-weight: 300;
+	}
+	.address{
+		font-size: 1.3em;
+		font-weight: 200;
+	}
+	.contat-text{
+		margin-top: 20px;
+		
+		font-size: 16px;
+		/**border: 2px red solid;**/
+		display: inline-block;
+		float: left;
+	}
+	.contat-title{
+		/**border: 2px red solid;**/
+		display: inline-block;
+		color: #CD5C5C;
+		font-weight: 300;
+		font-size: 2.4em;
+
+		
+	}
+	h4{
+		clear: both;
+		text-align: left;
+		display: block;
+		color: #FA8072;
+		position: relative;
+		top: 20px;
+	}
+		/**link do maps**/
+		.contat-text a{
+			display: block;
+			color: red;
+			text-decoration: none;
+
+		}
+		.contat-text a:link , .contat-text a:visited{
+			color: red;
+		}
+		.contat-text a:hover{
+			border: 3px red solid;
+			font-size: 1.2em;
+		}
